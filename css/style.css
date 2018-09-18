@@ -3,23 +3,44 @@
   padding: 0;
 }
 
-.flickity-page-dots {
-  opacity: 0;
+.jumbotron {
+  position: relative;
 }
 
-.carousel-cell {
+.jumbotron .button {
+  position: absolute;
+  top: 0;
+  margin: 5px 5px;
+  padding: 3px 3px;
+  color: #c1c1c1;
+  border: 1px solid #c1c1c1;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.jumbotron .button:hover {
+  color: #000;
+  border-color: #000;
+  cursor: pointer;
+}
+
+.jumbotron .carousel-cell {
   width: 100%;
   height: 50vh;
   min-height: 250px;
   margin-right: 10px;
 }
 
-.carousel-cell .container {
+.jumbotron .carousel-cell .container {
   height: 100%;
   max-width: 1000px;
   margin: 0 auto;
   color: #fff;
   text-align: center;
   background-size: cover;
+}
+
+.flickity-page-dots {
+  opacity: 0;
 }
 /*# sourceMappingURL=style.css.map */

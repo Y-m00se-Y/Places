@@ -10,3 +10,7 @@ var flkty = new Flickity( elem, {
 var flkty = new Flickity( '.main-carousel', {
   
 });
+var resetButton = document.getElementById('carouselReset');
+resetButton.addEventListener('click', function() {
+	flkty.select(0);
+});
